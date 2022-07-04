@@ -5,7 +5,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import {
-  Navbar, Footer, Sidebar, ThemeSettings
+  Navbar, Footer, Sidebar, ThemeSettings,
 } from './components';
 import {
   Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid,
@@ -18,7 +18,7 @@ import { useStateContext } from './contexts/ContextProvider';
 const App = () => {
   const {
     setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor,
-    themeSettings, setThemeSettings
+    themeSettings, setThemeSettings,
   } = useStateContext();
 
   useEffect(() => {
