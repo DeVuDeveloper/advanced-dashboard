@@ -32,7 +32,7 @@ import { HiOutlineRefresh } from 'react-icons/hi';
 import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
-import avatar from './avatar.jpg';
+import avatar from './avatar.jpeg';
 import avatar2 from './avatar2.jpg';
 import avatar3 from './avatar3.png';
 import avatar4 from './avatar4.jpg';
@@ -346,7 +346,7 @@ export const colorMappingData = [
 
 export const rangeColorMapping = [
   {
-    label: '1°C to 10°C', start: '1', end: '10', colors: colorMappingData[1] 
+    label: '1°C to 10°C', start: '1', end: '10', colors: colorMappingData[1],
   },
 
   {
@@ -475,7 +475,9 @@ export const employeesGrid = [
     template: gridEmployeeProfile,
     textAlign: 'Center',
   },
-  { field: 'Name', headerText: '', width: '0', textAlign: 'Center' },
+  {
+    field: 'Name', headerText: '', width: '0', textAlign: 'Center',
+  },
   {
     field: 'Title',
     headerText: 'Designation',
