@@ -3,28 +3,22 @@
 <div id="top"></div>
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://github.com/VuDej/front-end-rent-a-car">
-    <img src="./src/img/RentACar.gif" alt="Logo" width="200" height="150">
-  </a>
 
-  <h1 align="center">Rent A  Car Reac-Rails</h1>
+
+  <h1 align="center">Admin Dashboard React</h1>
 
   <p align="center">
-    A car rental website
+    Dashboard
     <br />
 
-## Backend Repository Link
-
-<a href="https://github.com/VuDej/backend-rent">Book A Car Backend</a>
-
-<a href="https://github.com/VuDej/front-end-rent-a-car#readme"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/VuDej/advanced-dashboard#readme"><strong>Explore the docs »</strong></a>
 <br />
 <br />
- <a href="https://frontend-dejan-rentacar.herokuapp.com/">View Demo</a>
+ <a href="">View Demo</a>
 .
-<a href="https://github.com/VuDej/front-end-rent-a-car/issues">Report Bug</a>
+<a href="https://github.com/VuDej/advanced-dashboard/issues">Report Bug</a>
 ·
-<a href="https://github.com/VuDej/front-end-rent-a-car/issues">Request Feature</a>
+<a href="https://github.com/VuDej/advanced-dashboard/issues">Request Feature</a>
 
 </div>
 
@@ -32,8 +26,8 @@
 <details>
 <summary align="center">Table of Contents</summary>
 
-- [Rent A Car](#rent-a-car)
-  - [Backend Repository Link](#backend-repository-link)
+- [Admin Dashboard](#admin_dashboard)
+  
   - [Live Link](#live-link)
   - [Screenshots](#screenshots)
   - [Description 🏗️](#description-️)
@@ -60,11 +54,11 @@
 
 ## Screenshots
 
-![Screenshot](src/img/screenshot.png)
+![Screenshot](src/img/dashboard.png)
 
 ## Description 🏗️
 
-This is a car rental website that allows you to view a variety of cars and book them at different rates. User can see all models and model details, resrve car and pay with credit card. Admin can add and delete car. Ruby on rails with PostgreSQL and active storage as backend and REact-redux as frontend.
+This is a advanced admin dashboard, examples how React can use syncfusion. Used syncfusion, grid, kanban board, calendar and charts. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -84,13 +78,13 @@ You will be needing:
 ### Clone this repository
 
 ```bash
-git clone https://github.com/VuDej/front-end-rent-a-car.git
+git clone https://github.com/VuDej/advanced-dashboard.git
 ```
 
 ### Move into the directory with
 
 ```bash
-cd book-a-car-frontend
+cd advanced-dashboard
 ```
 
 ### Install linter
@@ -106,8 +100,6 @@ npm start
 ```
 
 ### Install linter
-
-For Ruby and Rails run:
 
 ```bash
 npm install
@@ -203,10 +195,10 @@ If you have a suggestion that would make this better, please fork the repo and c
 - Fork the Project
 - Create your Feature Branch (git checkout -b feature/yourfeaturename)
 - Commit your Changes (git commit -m 'Add suggested feature')
-- Push to the Branch (git push origin feature/AmazingFeature)
+- Push to the Branch (git push origin feature/main)
 - Open a Pull Request
 
-Feel free to check the [issues page](https://github.com/VuDej/front-end-rent-a-car/issues).
+Feel free to check the [issues page](https://github.com/VuDej/advanced-dashboard/issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
