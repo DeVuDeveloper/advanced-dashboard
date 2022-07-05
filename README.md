@@ -1,71 +1,222 @@
-# Getting Started with Create React App
-##Advanced dashboard
+# Advanced Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div id="top"></div>
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="https://github.com/VuDej/front-end-rent-a-car">
+    <img src="./src/img/RentACar.gif" alt="Logo" width="200" height="150">
+  </a>
 
-## Available Scripts
+  <h1 align="center">Rent A  Car Reac-Rails</h1>
 
-In the project directory, you can run:
+  <p align="center">
+    A car rental website
+    <br />
 
-### `npm start`
+## Backend Repository Link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a href="https://github.com/VuDej/backend-rent">Book A Car Backend</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a href="https://github.com/VuDej/front-end-rent-a-car#readme"><strong>Explore the docs »</strong></a>
+<br />
+<br />
+ <a href="https://frontend-dejan-rentacar.herokuapp.com/">View Demo</a>
+.
+<a href="https://github.com/VuDej/front-end-rent-a-car/issues">Report Bug</a>
+·
+<a href="https://github.com/VuDej/front-end-rent-a-car/issues">Request Feature</a>
 
-### `npm test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- TABLE OF CONTENTS -->
+<details>
+<summary align="center">Table of Contents</summary>
 
-### `npm run build`
+- [Rent A Car](#rent-a-car)
+  - [Backend Repository Link](#backend-repository-link)
+  - [Live Link](#live-link)
+  - [Screenshots](#screenshots)
+  - [Description 🏗️](#description-️)
+  - [Getting Started 🏁](#getting-started-)
+    - [Prerequisites and Dependencies 📜](#prerequisites-and-dependencies-)
+    - [Clone this repository](#clone-this-repository)
+    - [Move into the directory with](#move-into-the-directory-with)
+    - [Install linter](#install-linter)
+    - [Start server](#start-server)
+    - [Install linter](#install-linter-1)
+    - [Run linter](#run-linter)
+      - [Auto-correct](#auto-correct)
+  - [Built With 🔨](#built-with-)
+  - [Authors ✍️](#authors-️)
+  - [🤝 Contributors](#-contributors)
+  - [📝 License](#-license)
+  - [Show your support 💪](#show-your-support-)
+  - [Acknowledgments](#acknowledgments)
+  </details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- About the project -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[App screenshot](https://example.com)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
+![Screenshot](src/img/screenshot.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Description 🏗️
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This is a car rental website that allows you to view a variety of cars and book them at different rates. User can see all models and model details, resrve car and pay with credit card. Admin can add and delete car. Ruby on rails with PostgreSQL and active storage as backend and REact-redux as frontend.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started 🏁
 
-## Learn More
+### Prerequisites and Dependencies 📜
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You will be needing:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- A terminal terminal
+- A code editor
+- React(follow the instructions based on your OS)
+  ```bash
+  https://reactjs.org/docs/create-a-new-react-app.html
+  ```
 
-### Code Splitting
+### Clone this repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/VuDej/front-end-rent-a-car.git
+```
 
-### Analyzing the Bundle Size
+### Move into the directory with
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+cd book-a-car-frontend
+```
 
-### Making a Progressive Web App
+### Install linter
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm install
+```
 
-### Advanced Configuration
+### Start server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm start
+```
 
-### Deployment
+### Install linter
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+For Ruby and Rails run:
 
-### `npm run build` fails to minify
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Run linter
+
+For Stylelint:
+
+```bash
+npx stylelint "**/*.{css,scss}"
+```
+
+#### Auto-correct
+
+For stylelint:
+
+```bash
+npx stylelint "**/*.{css,scss}" --fix
+```{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": ["airbnb", "plugin:react/recommended"],
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "react/react-in-jsx-scope": "off",
+    "import/no-unresolved": "off",
+    "no-shadow": "off"
+  },
+  "ignorePatterns": [
+    "dist/",
+    "build/"
+  ]
+}
+
+```bash
+npm start
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Built With 🔨
+
+<div align="center">
+
+|     | Languages                                                                                                                                                                                                               |     |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+|     | ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) |     |
+
+</div>
+
+<div align="center">
+
+|     | Tools 🛠️                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |     |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+|     | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) |     |
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+</div>
+
+## Authors ✍️
+
+<div align="center">
+
+| 👤 vudej |
+| -------- |
+
+| <a target="_blank" href="https://github.com/VuDej"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="Github profile"></a> <a target="_blank" href="https://www.linkedin.com/in/dejan-vujovic/"><img src="https://img.shields.io/badge/-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="Linkedin profile"></a> <a target="_blank" href="https://twitter.com/DejanVuj"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter profile"></a>
+|
+
+</div>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## 🤝 Contributors
+
+Contributions, issues, and feature requests are greatly appreciated!
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "improvements".
+
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/yourfeaturename)
+- Commit your Changes (git commit -m 'Add suggested feature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
+
+Feel free to check the [issues page](https://github.com/VuDej/front-end-rent-a-car/issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## 📝 License
+
+This project is licensed by [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+## Show your support 💪
+
+Give a ⭐️ if you like this project!
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
