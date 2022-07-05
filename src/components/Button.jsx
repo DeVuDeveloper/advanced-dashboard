@@ -1,7 +1,25 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/function-component-definition */
 import React from 'react';
 
-export default function Button() {
+import { useStateContext } from '../contexts/ContextProvider';
+
+const Button = ({
+  icon, bgColor, color, bgHoverColor, size, text, borderRadius, width,
+}) => {
+  const { setIsClicked, initialState } = useStateContext();
+
   return (
-    <div>Button</div>
+    <button
+      type="button"
+      onClick={() => setIsClicked(initialState)}
+      style={{ backgroundColor: bgColor, color, borderRadius }}
+      className={` text-${size} p-3 w-${width} hover:drop-shadow-xl hover:bg-${bgHoverColor}`}
+    >
+      {icon}
+      {text}
+    </button>
   );
-}
+};
+
+export default Button;
